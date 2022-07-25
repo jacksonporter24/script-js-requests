@@ -1,0 +1,157 @@
+.body {
+    overflow: scroll;
+}
+
+#wrapper {
+    resize: both;
+}
+
+#repeat-text {
+    font-size: xx-large;
+    display: none;
+}
+
+#header-text {
+    font-size: xx-large;
+    /* display: none; */
+}
+
+#chap-one {
+    text-align: center;
+    position:absolute;
+    z-index: 1;
+    margin: auto;
+    top: 94%;
+    left: 42%
+}
+
+#chap-two {
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    top: 74%;
+    left: 25%
+}
+
+.container {
+    padding: 100px
+}
+
+.line-one {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 55%;
+    left: 33.5%;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 450px;
+    resize: both;
+    overflow: auto;
+   
+}
+
+.line-two {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 65%;
+    left: 35%;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 410px;
+   
+}
+
+.line-three {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 75%;
+    left: 36.5%;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 370px;
+   
+}
+
+.line-four {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 45%;
+    left: 35%;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 410px;
+   
+}
+
+.line-five {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 35%;
+    left: 36.5%;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 370px;
+   
+}
+
+.verticle-line {
+    width: 10px;
+    height: 45px;
+    position:absolute;
+    z-index: 3;
+    top: 17%;
+    left: 50%;
+    margin:auto;
+    height: 530px;
+    background: black;
+    width: 2px;
+   
+}
+
+
+.circle {
+    background: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 460px;
+}
+
+
+/* .lines::after, .lines::before {
+    content:'';
+    position:absolute;
+    margin:auto;
+    height: 2px;
+    background: black;
+    width: 45%;
+    top: 45%
+}
+
+.lines::after {
+    left:0
+}
+
+.lines::before {
+    right:0
+} */
